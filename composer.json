@@ -1,0 +1,30 @@
+{
+    "name": "liuwave/think-filesystem-driver-kodo",
+    "description": "这是一个基于七牛云对象存储的thinkphp6.0 Filesystem驱动",
+    "type": "library",
+    "keywords": [
+        "think-filesystem-driver-kodo",
+        "对象存储",
+        "filesystem",
+        "七牛云",
+        "kodo"
+    ],
+    "homepage": "https://github.com/liuwave/think-filesystem-driver-kodo",
+    "require": {
+        "php": ">=7.2.0",
+        "topthink/framework": "^6.0.0",
+        "liz/flysystem-qiniu": "^1.21"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuwave",
+            "email": "liuwave@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "liuwave\\think\\filesystem\\driver\\": "src/"
+        }
+    }
+}
