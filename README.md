@@ -30,7 +30,7 @@ $file=\request()->file('file');
 $filesystem     = \think\facade\Filesystem::disk('kodo');
 $saveName       = $filesystem->putFile('/path/to/save/file', $file, 'md5');
 $saveName       = str_replace('\\', '/', $saveName);
-$fullName = think\facade\Filesystem::getDiskConfig('kodo', 'url').'/'.$saveName;
+$fullName = \think\facade\Filesystem::getDiskConfig('kodo', 'url').'/'.$saveName;
 ```
 
 
